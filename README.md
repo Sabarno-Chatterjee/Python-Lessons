@@ -19,3 +19,6 @@ LISTS:
     # Adding items
 
         Add an item to a list with .append(), and put the item you would like to add in parentheses.
+
+    # You can also get the minimum with min(list_name) and the maximum with max(list_name).
+    # To add every item in the list, use sum().
