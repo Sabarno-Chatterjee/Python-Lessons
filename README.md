@@ -28,6 +28,23 @@ LISTS:
 
 
 
+    List methods: A function attached to an object is called a method.
+
+        1. list.append modifies a list by adding an item to the end.
+        2. list.pop removes and returns the last element of a list.
+        3. list.index() Where does an element fall in the order of the list? We can get its index using the  list.index method.
+
+
+
+TUPLES:
+
+    Tuples are almost exactly the same as lists. They differ in just two ways.
+        1. The syntax for creating them uses parentheses instead of square brackets;
+            t = (1, 2, 3)
+        2: They cannot be modified (they are immutable).
+
+
+
 OPERATORS:
 
 
