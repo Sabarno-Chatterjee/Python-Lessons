@@ -48,6 +48,7 @@ OPERATORS:
 
     help(round)
 
+<<<<<<< HEAD
 
 * docstrings
 
@@ -59,3 +60,5 @@ OPERATORS:
 
 
 
+=======
+>>>>>>> de108dd297262841036c94e3e340c995f9f0f753
