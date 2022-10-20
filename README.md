@@ -22,3 +22,29 @@ LISTS:
 
     # You can also get the minimum with min(list_name) and the maximum with max(list_name).
     # To add every item in the list, use sum().
+
+
+
+OPERATORS:
+
+
+        # ABS:
+
+            Returns the absolute value of an argument:
+            print(abs(32))
+            print(abs(-32))
+
+            Will print:
+
+            32
+            32
+
+        
+* help()
+
+    The help() function is possibly the most important Python function you can learn. If you can remember how to use help(), you hold the key to understanding most other functions.
+
+    eg:
+
+    help(round)
+
