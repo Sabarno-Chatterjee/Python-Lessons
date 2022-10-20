@@ -11,6 +11,7 @@ LISTS:
 
         to pull the first x entries, you use [:x], and
         to pull the last y entries, you use [-y:].
+        to pull entries from a specific startign point, till 2nd element. [0:3]
 
     # Removing items
         
@@ -22,6 +23,8 @@ LISTS:
 
     # You can also get the minimum with min(list_name) and the maximum with max(list_name).
     # To add every item in the list, use sum().
+    # Sorted: sorted returns a sorted version of a list;
+             sorted(planets)
 
 
 
@@ -48,17 +51,39 @@ OPERATORS:
 
     help(round)
 
-<<<<<<< HEAD
 
 * docstrings
 
 
     def function_name(parameters):
 
-    """ Description of what the function is used for. Which can be checked while calling the function or by using help(function_name)
+    """ The docstring is a triple-quoted string (which may span multiple lines) that comes immediately after the header of a function. When we call help() on a function, it shows the docstring.
     """
 
 
 
-=======
->>>>>>> de108dd297262841036c94e3e340c995f9f0f753
+* Higher-order functions
+
+    Functions that operate on other functions are called "higher-order functions." 
+
+    def mod_5(x):
+    """Return the remainder of x after dividing by 5"""
+    return x % 5
+
+    print(
+    'Which number is biggest?',
+    max(100, 51, 14),
+    'Which number is the biggest modulo 5?',
+    max(100, 51, 14, key=mod_5),
+    sep='\n',
+    )
+
+
+    Sol.
+
+    Which number is biggest?
+    100
+    Which number is the biggest modulo 5?
+    14
+
+
