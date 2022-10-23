@@ -157,9 +157,91 @@ OPERATORS:
 
         * while loops;
 
+          Syntax:
+
+            while condition:
+                statement(s)
+
+          Statements in the code block under while are executed repeatedly as long as the condition evaluates to True. Generally, one of the statements under while makes some change to a variable that causes the condition to evaluate to False after a certain number of iterations.
+
         
 
         * for loops; 
 
+            Syntax:
+
+                for value in sequence:
+                    statement(s)
+
+
+
+# PASS STATEMENT:
+
+
+    if statements cannot be empty, there must be at least one statement in every if and elif block. You can use the pass statement to do nothing and avoid getting an error.
+
+    eg:
+
+    if a_number % 2 == 0:
+    elif a_number % 3 == 0:
+    print('{} is divisible by 3 but not divisible by 2')
+
+    This will give out an error, as the if block is empty.
+
+    BUT:
+
+    if a_number % 2 == 0:
+    pass
+    elif a_number % 3 == 0:
+    print('{} is divisible by 3 but not divisible by 2'.format(a_number))
+
+    Output:
+
+    9 is divisible by 3 but not divisible by 2
+
+
+
+# BREAK AND CONTINUE STATEMENTS:
+
+
+    --> break:
+        
+         You can use the break statement within the loop's body to immediately stop the execution and   break out of the loop (even if the condition provided to while still holds true).
+
+         e.g:
+
+         i = 1
+         result = 1
+
+         while i <= 100:
+            result *= i
+            if i == 42:
+                print('Magic number 42 reached! Stopping execution..')
+                break
+            i += 1
+    
+         print('i:', i)
+         print('result:', result)
+
+
+    --> continue:
+
+        Sometimes you may not want to end the loop entirely, but simply skip the remaining statements in the loop and continue to the next loop. You can do this using the continue statement.
+
+        e.g:
+
+        i = 1
+        result = 1
+
+        while i < 20:
+            i += 1
+            if i % 2 == 0:
+                print('Skipping {}'.format(i))
+                continue
+        print('Multiplying with {}'.format(i))
+        result = result * i
+        
+        print('i:', i)
+        print('result:', result)
 
 
