@@ -172,6 +172,9 @@ OPERATORS:
 
                 for value in sequence:
                     statement(s)
+          
+
+          Similar to while loops, for loops also support the break and continue statements. break is used for breaking out of the loop and continue is used for skipping ahead to the next iteration.
 
 
 
@@ -243,5 +246,14 @@ OPERATORS:
         
         print('i:', i)
         print('result:', result)
+
+
+# range:
+
+    The range function is used to create a sequence of numbers that can be iterated over using a for loop. It can be used in 3 ways:
+
+    range(n) - Creates a sequence of numbers from 0 to n-1
+    range(a, b) - Creates a sequence of numbers from a to b-1
+    range(a, b, step) - Creates a sequence of numbers from a to b-1 with increments of step
 
 
