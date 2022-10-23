@@ -257,3 +257,9 @@ OPERATORS:
     range(a, b, step) - Creates a sequence of numbers from a to b-1 with increments of step
 
 
+# FUNCTIONS:
+
+    Function arguments:
+
+    Functions can accept zero or more values as inputs (also knows as arguments or parameters). Arguments help us write flexible functions that can perform the same operations on different values. Further, functions can return a result that can be stored in a variable or used in other expressions.
+
