@@ -104,3 +104,11 @@ OPERATORS:
     14
 
 
+
+# Python Operators:
+
+
+    1. Logical operators    :    and, or, not.
+    2. Conditional operators:   >,<,=,etc.
+    3. Arithmetic operators :    +, *, /, etc.
+
