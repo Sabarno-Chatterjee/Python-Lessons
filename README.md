@@ -132,3 +132,34 @@ OPERATORS:
     2. Conditional operators:    >,<,=,etc.
     3. Arithmetic operators :    +, *, /, etc.
 
+
+# PYTHON BRANCHING & LOOPS:
+
+    -->CONDITIONAL STATEMENTS:
+
+        if, elif and else statements.
+
+        * CONDITIONAL EXPRESSION (ternary operator):
+
+            Using this we can write a multi line if, else statement in a single line.
+
+            Syntax:
+
+            x = true_value if condition else false_value
+
+            e.g:
+
+            number = 'even' if a_number % 2 == 0 else 'odd'
+
+
+    
+    -->ITERATION (LOOPS):
+
+        * while loops;
+
+        
+
+        * for loops; 
+
+
+
