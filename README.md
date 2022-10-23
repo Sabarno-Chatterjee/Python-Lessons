@@ -1,47 +1,67 @@
 # Python-Lessons
 
+PYTHON DATA TYPES:
 
-LISTS:
+1. PRIMITIVE TYPES:
 
-    # SLICING:
+    i.e. Built in data types.
 
+        integer, boolean, string, float,etc.
 
-        Slicing
-        You can also pull a segment of a list (for instance, the first three entries or the last two entries). This is called slicing. For instance:
-
-        to pull the first x entries, you use [:x], and
-        to pull the last y entries, you use [-y:].
-        to pull entries from a specific startign point, till 2nd element. [0:3]
-
-    # Removing items
-        
-        Remove an item from a list with .remove(), and put the item you would like to remove in parentheses.
-
-    # Adding items
-
-        Add an item to a list with .append(), and put the item you would like to add in parentheses.
-
-    # You can also get the minimum with min(list_name) and the maximum with max(list_name).
-    # To add every item in the list, use sum().
-    # Sorted: sorted returns a sorted version of a list;
-             sorted(planets)
+2. CONTAINERS:
 
 
 
-    List methods: A function attached to an object is called a method.
+        -->LISTS:
 
-        1. list.append modifies a list by adding an item to the end.
-        2. list.pop removes and returns the last element of a list.
-        3. list.index() Where does an element fall in the order of the list? We can get its index using the  list.index method.
+            # SLICING:
 
 
+                Slicing
+                You can also pull a segment of a list (for instance, the first three entries or the last two entries). This is called slicing. For instance:
 
-TUPLES:
+                to pull the first x entries, you use [:x], and
+                to pull the last y entries, you use [-y:].
+                to pull entries from a specific startign point, till 2nd element. [0:3]
 
-    Tuples are almost exactly the same as lists. They differ in just two ways.
-        1. The syntax for creating them uses parentheses instead of square brackets;
-            t = (1, 2, 3)
-        2: They cannot be modified (they are immutable).
+            # Removing items
+                
+                Remove an item from a list with .remove(), and put the item you would like to remove in parentheses.
+
+            # Adding items
+
+                Add an item to a list with .append(), and put the item you would like to add in parentheses.
+
+            # You can also get the minimum with min(list_name) and the maximum with max(list_name).
+            # To add every item in the list, use sum().
+            # Sorted: sorted returns a sorted version of a list;
+                    sorted(planets)
+
+
+
+            List methods: A function attached to an object is called a method.
+
+                1. list.append modifies a list by adding an item to the end.
+                2. list.pop removes and returns the last element of a list.
+                3. list.index() Where does an element fall in the order of the list? We can get its index using the  list.index method.
+
+
+        -->DICTIONARY:
+
+            A dictionary is an unordered collection of items. Each item stored in a dictionary has a key and value. You can use a key to retrieve the corresponding value from the dictionary. Dictionaries have the type dict.
+
+            Dictionaries are often used to store many pieces of information e.g. details about a person, in a single variable. Dictionaries are created by enclosing key-value pairs within braces or curly brackets { and }.
+
+
+
+        -->TUPLES:
+
+            Tuples are almost exactly the same as lists. They differ in just two ways.
+                1. The syntax for creating them uses parentheses instead of square brackets;
+                    t = (1, 2, 3)
+                2: They cannot be modified (they are immutable).
+
+
 
 
 
@@ -109,6 +129,6 @@ OPERATORS:
 
 
     1. Logical operators    :    and, or, not.
-    2. Conditional operators:   >,<,=,etc.
+    2. Conditional operators:    >,<,=,etc.
     3. Arithmetic operators :    +, *, /, etc.
 
