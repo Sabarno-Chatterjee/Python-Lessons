@@ -39,3 +39,38 @@
     * Add a list:
 
         list = list + ["element_1","elememnt_2"]
+
+    * Insert:
+
+        To insert a list item at a specified index, use the insert() method.
+
+        list.insert(0, "element_1") {This will insert an item on the first position}
+
+
+
+*** TO REMOVE ELEMENTS ***
+
+
+    * clear()
+
+        The clear() method empties the list.
+
+        list.clear()
+
+
+    * remove()
+
+        The remove() method removes the specified item.
+
+        thislist = ["apple", "banana", "cherry"]
+        thislist.remove("banana")
+        print(thislist)
+
+
+    * pop()
+
+        The pop() method removes the specified index.
+
+        thislist = ["Australia", "Germany", "England"]
+        thislist.pop(1)
+        print(thislist)
