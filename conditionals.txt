@@ -1,0 +1,13 @@
+*Ternary Operator in Python:
+
+    Ternary operators are also known as conditional expressions are operators that evaluate something based on a condition being true or false.
+    It simply allows testing a condition in a single line replacing the multiline if-else making the code compact.
+
+    Syntax : 
+
+    [on_true] if [expression] else [on_false] 
+
+    e.g:
+
+    num = "even" if (num % 2 == 0) else "odd"
+    print(num)
