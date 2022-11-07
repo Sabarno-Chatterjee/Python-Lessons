@@ -1,0 +1,41 @@
+* Lists are used to store multiple items in a single variable.
+
+    E.g
+    thislist = ["apple", "banana", "cherry"]
+    print(thislist)
+
+
+* List Items
+
+    List items are ordered, changeable, and allow duplicate values.
+
+    List items are indexed, the first item has index [0], the second item has index [1] etc.
+
+* List Length
+
+    To determine how many items a list has, use the len() function:
+
+    thislist = ["apple", "banana", "cherry"]
+    print(len(thislist))
+
+
+
+*** TO ADD NEW ELEMENTS ***
+
+
+
+    * Append:
+
+        It's used to add a single element to the end of a list.
+
+        e.g: list.append("element")
+
+    * Extend:
+
+        It's used to add multiple elements to a list; in other words you can add a list to a list.
+
+        e.g:  list.extend(["Element_1","Element_2","Element_3"])
+
+    * Add a list:
+
+        list = list + ["element_1","elememnt_2"]
