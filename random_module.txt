@@ -1,0 +1,9 @@
+* randrange()
+
+    The randrange() method returns a randomly selected element from the specified range.
+
+    import random
+
+    print(random.randrange(0, 5))
+
+    #returns a number between 0 (included) and 5 (not included)
