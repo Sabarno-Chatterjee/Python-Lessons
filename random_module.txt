@@ -7,3 +7,26 @@
     print(random.randrange(0, 5))
 
     #returns a number between 0 (included) and 5 (not included)
+
+
+
+* random()
+
+    Returns random number between 0.0 and 1.0:
+
+    import random
+
+    print(random.random())
+
+
+* randint()
+
+
+    The randint() method returns an integer number selected element from the specified range.
+
+
+    import random
+
+    print(random.randint(0, 5))
+
+    #Returns a number between 0 and 5 (both included)
