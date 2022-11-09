@@ -30,3 +30,16 @@
     print(random.randint(0, 5))
 
     #Returns a number between 0 and 5 (both included)
+
+
+* random.choice():
+
+    The choice() method returns a randomly selected element from the specified sequence.
+
+    The sequence can be a string, a range, a list, a tuple or any other kind of sequence.
+
+    import random
+
+    Towns = ["Kolkata", "Delhi", "Nagpur"]
+
+    print(random.choice(Towns))
