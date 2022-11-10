@@ -1,0 +1,71 @@
+Python Functions.
+
+    A function is a block of code which only runs when it is called.
+
+    You can pass data, known as parameters, into a function.
+
+    A function can return data as a result.
+
+    Eg:
+
+    def greet():
+        print("Hello")
+
+    #Calling a function:
+
+    greet()
+
+
+    Arguments:
+
+    Information can be passed into functions as arguments.
+
+    Arguments are specified after the function name, inside the parentheses. You can add as many arguments as you want, just separate them with a comma.
+
+    eg:
+
+    def greetings(name):
+
+        print(f"Hello {name}")
+
+    
+    #Calling:
+
+    greetings(input("Please enter your name."))
+
+    {Here the function greetings is asking the user for their name and passing the argument to the parameter name.}
+
+
+    Positional arguments:
+
+    def greetwith(name, location):
+
+      print(f"hello {name}, isn't the weather in {location} splendid today?")
+    
+    # Calling:
+
+
+    user_name = input("Please enter your name.")
+    user_location = input("Please enter your location.")
+
+    greetwith(user_name, user_location)
+
+    {Here the function works perfectly fine unless we interchange the arguments i. [greetwith(user_location, user_name)], doing so will return an output with name instead of location and vice versa.}
+
+
+
+    Keyword arguments:
+
+
+    def greetwith(name, location):
+
+        print(f"hello {name}, isn't the weather in {location} splendid today?")
+
+    #Calling:
+    
+    user_name = input("name?")
+    user_location = input("location?")
+
+    greetwith(location = user_location, name = user_name)
+
+    {Here how we position our arguments while calling the function doesn't matter as we have used keyword arguments. }
