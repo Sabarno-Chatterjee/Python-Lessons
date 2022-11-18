@@ -69,3 +69,8 @@ Python Functions.
     greetwith(location = user_location, name = user_name)
 
     {Here how we position our arguments while calling the function doesn't matter as we have used keyword arguments. }
+
+
+    # Recursion in Python
+
+        The term Recursion can be defined as the process of defining something in terms of itself. In simple words, it is a process in which a function calls itself directly or indirectly.
