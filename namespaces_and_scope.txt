@@ -1,0 +1,15 @@
+* What is namespace?
+
+    A namespace is a system that has a unique name for each and every object in Python. An object might be a variable or a method. Python itself maintains a namespace in the form of a Python dictionary.
+
+
+* Scope:
+
+    # Local scope:
+
+        When a variable/function is created inside a function, it is only accessible within the function i.e locally. 
+
+    # Global:
+
+        When a variable is defined outside the function, it is accessible anywhere, i.e within any function or outside of it and hence the variable has a global scope.
+
