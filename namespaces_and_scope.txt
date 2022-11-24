@@ -13,3 +13,13 @@
 
         When a variable is defined outside the function, it is accessible anywhere, i.e within any function or outside of it and hence the variable has a global scope.
 
+    # Global constants or Python constants:
+
+        In programming, the term constant refers to names representing values that don’t change during a program’s execution.
+
+        User-Defined Constants:
+
+        To tell other programmers that a given value should be treated as a constant, you must use a widely accepted naming convention for the constant’s identifier or name. You should write the name in capital letters with underscores separating words, eg:
+
+        PI = 3.14
+        MAX_SPEED = 300
