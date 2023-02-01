@@ -28,17 +28,7 @@ Python Functions.
 
         print(f"Hello {name}")
 
-    # Unlimited Arguments (*args):
-    
-    def add(*args):
-    sum = 0
-    for n in args:
-        sum += n
-    return sum
-
-    total = add(2,4,5,3,1,2,3,1)
-    print(total)
-    
+  
     
     #Calling:
 
@@ -52,6 +42,18 @@ Python Functions.
     def greetwith(name, location):
 
       print(f"hello {name}, isn't the weather in {location} splendid today?")
+      
+    # Unlimited Positional Arguments (*args):
+    
+    def add(*args):
+    sum = 0
+    for n in args:
+        sum += n
+    return sum
+
+    total = add(2,4,5,3,1,2,3,1)
+    print(total)
+    
     
     # Calling:
 
@@ -65,12 +67,22 @@ Python Functions.
 
 
 
-    Keyword arguments:
+    # Keyword arguments:
 
 
     def greetwith(name, location):
 
         print(f"hello {name}, isn't the weather in {location} splendid today?")
+
+    # Unlimited keyword arguments. (**kwargs):
+    
+    def calculate(n, **kwargs):
+    n += kwargs["add"]
+    n *= kwargs["multiply"]
+    return n
+
+
+    print(calculate(2, add=3, multiply=4))
 
     #Calling:
     
