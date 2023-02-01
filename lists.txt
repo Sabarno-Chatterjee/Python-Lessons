@@ -90,3 +90,19 @@
         
         new_list = [(number*2) for number in range(1,5)]
 
+    * Conditional List Comprehension:
+        
+        new_list = [new_item for item in list if test]
+        
+        Eg:
+        
+        list = ["Vict", "Max", "Clemence", "Juventus", "Jane"]
+
+        new_list = [item for item in list if len(item) <= 4]
+        
+        or 
+        
+        list = ["Vict", "Max", "Clemence", "Juventus", "Jane"]
+
+        new_list = [item.upper() for item in list if len(item) >= 5]
+    
