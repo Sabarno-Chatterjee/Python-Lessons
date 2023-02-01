@@ -51,3 +51,24 @@
     for key in programming_dictionary:
         print(programming_dictionary[key])
 
+
+* Dictionary comprehension:
+
+    new_dict = {new_key: new_value for item in list}
+    
+    Eg:
+    name = ["Vict", "Max", "Clemence", "Juventus", "Jane"]
+    
+    new_dict = {student: random.randint(0, 101) for student in name}
+
+   
+    new_dict = {new_key : new_value for (key, value) in dict.items()}
+    
+    or with conditions:
+    
+    new_dict = {new_key : new_value for (key, value) in dict.items() if test}
+    eg:
+    
+    passed_students = {student:score for (student, score) in new_dict.items() if score > 60}
+    
+    
