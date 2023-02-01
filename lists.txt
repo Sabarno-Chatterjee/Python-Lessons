@@ -74,3 +74,14 @@
         thislist = ["Australia", "Germany", "England"]
         thislist.pop(1)
         print(thislist)
+    
+    * List comprehension
+    
+        Using this we can add items to a new list without writing multiple lines of code.
+        Syntax:
+        <new_list = [new_item for item in list>
+        
+        for eg:
+        list = [1,2,3]
+        
+        new_list = [(item+1) for item in list]
