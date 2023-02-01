@@ -1,0 +1,13 @@
+# iterrows()
+
+
+  student_dict = {
+    "Student" : ["Larry", "Moe", "Curly"],
+    "Scores" : [23,34,45]
+  }
+
+  student_dataframe = pandas.DataFrame(student_dict)
+
+  for (index, row) in student_dataframe.iterrows():
+      if row.Student == "Moe":
+          print(row.Scores)
