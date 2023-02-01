@@ -50,6 +50,10 @@
 
     for key in programming_dictionary:
         print(programming_dictionary[key])
+        
+    for (key, value) in dict.items():
+        print(key)
+        print(value)
 
 
 * Dictionary comprehension:
