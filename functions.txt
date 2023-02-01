@@ -75,13 +75,23 @@ Python Functions.
         print(f"hello {name}, isn't the weather in {location} splendid today?")
 
     # Unlimited keyword arguments. (**kwargs):
+ 
+    eg:
     
     def calculate(n, **kwargs):
     n += kwargs["add"]
     n *= kwargs["multiply"]
     return n
 
+    eg:
+    [The .get() lets us pass empty **kwargs]
+    class Car():
+    def __init__(self, **kwargs):
+        self.make = kwargs.get("make")
+        self.model = kwargs.get("model")
 
+
+my_car = Car(make="Nissan")
     print(calculate(2, add=3, multiply=4))
 
     #Calling:
