@@ -84,3 +84,7 @@ listbox.bind("<<ListboxSelect>>", listbox_used)
 listbox.pack()
 window.mainloop()
 
+# Layout managers:
+    pack()  [Simple, just aligns on the basis of left, right, centre]
+    place() [Needs exact co-ordinates]
+    grid() [Divides the screen into rows and columns]
