@@ -88,3 +88,44 @@ window.mainloop()
     pack()  [Simple, just aligns on the basis of left, right, centre]
     place() [Needs exact co-ordinates]
     grid() [Divides the screen into rows and columns]
+    
+    
+
+Eg: [I have made a sample mile to km converter just to demonstrate the use of tkinter]
+
+from tkinter import *
+
+
+def converter():
+    miles = input.get()
+    km = float(miles) * 1.6
+    my_label_d.config(text=km)
+
+
+
+
+window = Tk()
+window.title("Miles to km convertor project.")
+window.minsize(width=300, height=100)
+# Padding
+window.config(padx=20, pady=20)
+
+input = Entry()
+input.grid(row=0, column=2)
+
+my_label = Label(text="    Miles")
+my_label.grid(row=0, column=3)
+my_label = Label(text="is equal to")
+my_label.grid(row=1, column=0)
+my_label_d = Label(text="0")
+my_label_d.grid(row=1, column=2)
+my_label = Label(text="Km")
+my_label.grid(row=1, column=3)
+my_button = Button(text="Calculate", command=converter)
+my_button.grid(row=2, column=2)
+
+
+
+window.mainloop()
+
+
