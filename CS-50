@@ -1,0 +1,8 @@
+# String strip, split and title.
+
+name = input("What is your name?\n").strip().title()
+first, last = name.split(" ")   [We can assign the split values to different variables]
+
+
+print("Hello", first)
+
